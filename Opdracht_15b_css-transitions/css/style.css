@@ -1,0 +1,22 @@
+.red {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.anim:hover .red {
+  width: 300px;
+  transition-duration:1s;
+}
+
+.anim:hover .blue {
+  width: 300px;  
+  transition-delay: 1s;
+  transition-duration:1s;
+}
